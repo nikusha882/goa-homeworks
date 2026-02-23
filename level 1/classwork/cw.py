@@ -1,3 +1,4 @@
+print("hello world")
 A=15
 B=5
 print(A+B)
@@ -51,6 +52,8 @@ number = 5      # ინიციალიზება
 number = 15     # რეინიციალიზება
 
 print(number)   # ტერმინალში გამოვა 15
+
+
 #კონკატენაცია ნიშნავს ორი ან მეტი ტექსტის (string)ის შეერთებას
 name="nika"
 surname="jalabadze"

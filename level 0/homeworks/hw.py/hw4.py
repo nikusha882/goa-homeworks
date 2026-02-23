@@ -20,12 +20,12 @@ print("hello my name is", name , surname , "my adress is" , adress , "my hobbies
 
 # case sensitive
 #მაგალითი
-my_name=nika
-My_name=luka
-MY_NAME=gio
+my_name="nika"
+My_name="luka"
+MY_NAME="gio"
 print(my_name)
 print(My_name)
 print(MY_NAME)
 
 # snake_case სიტყვა რომელიც გამოიყენება დაბლითა ტირეთი
-fav_car
+fav_car="bmw"
