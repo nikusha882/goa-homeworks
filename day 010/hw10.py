@@ -45,5 +45,20 @@ else:
 
 
 
-age =int(input("შეიყვანე შენი ასაკი "))
-is_student =input("ხარ სტუდენტი? (yes/no): ")
+age=int(input("შეიყვანე შენი ასაკი "))
+is_student=input("ხარ სტუდენტი? (yes/no): ")
+if age < 12 or age > 65:
+    print("ბილეთი უფასოა")
+elif age > 12 and is_student=="yes" :
+    print("ბილეთი ნახევარ ფასად")
+else:
+    print("ბილეთი სრულ ფასად")
+
+name=input("ჩაწერეთ თქვენი სახელი: ")
+password=input("ჩაწერეთ პაროლი")
+if password=="supersecretpassword" and name=="admin" :
+    print("გამარჯობა ადმინ")
+elif password=="1234" and name=="gues" :
+    print("მოგესალმები სტუმარო")
+else :
+    print("მომხმარებელი არ მოიძებნა")
