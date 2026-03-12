@@ -13,8 +13,8 @@ else:
 
 
 
-score = float(input("შეიყვანე შენი ქულა: "))
-attendance = float(input("შეიყვანე დასწრება (%): "))
+score = int(input("შეიყვანე შენი ქულა: "))
+attendance = int(input("შეიყვანე დასწრება (%): "))
 
 if score > 80 and attendance > 90:
     print("შენ ჩააბარე გამოცდა")
@@ -29,7 +29,7 @@ else:
 
 
 # მომხმარებლის შეყვანილი მონაცემები
-temp = float(input("შეიყვანე ტემპერატურა: "))
+temp = int(input("შეიყვანე ტემპერატურა: "))
 rain = input("წვიმა არის? (yes/no): ") 
 
 # პირობის შემოწმება
@@ -58,7 +58,7 @@ name=input("ჩაწერეთ თქვენი სახელი: ")
 password=input("ჩაწერეთ პაროლი")
 if password=="supersecretpassword" and name=="admin" :
     print("გამარჯობა ადმინ")
-elif password=="1234" and name=="gues" :
+elif password=="1234" and name=="guest" :
     print("მოგესალმები სტუმარო")
 else :
     print("მომხმარებელი არ მოიძებნა")
