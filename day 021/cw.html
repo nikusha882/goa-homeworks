@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>რეგისტრაციის ფორმა</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია</h2>
+
+    <form>
+        <label for="firstname">სახელი:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">გვარი:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="age">ასაკი:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <p>აირჩიეთ ძაღლის ჯიში:</p>
+
+        <input type="radio" id="labrador" name="dogbreed" required>
+        <label for="labrador">ლაბრადორი</label><br>
+
+        <input type="radio" id="bulldog" name="dogbreed">
+        <label for="bulldog">ბულდოგი</label><br>
+
+        <input type="radio" id="poodle" name="dogbreed">
+        <label for="poodle">პუდელი</label><br>
+
+        <input type="radio" id="germanshepherd" name="dogbreed">
+        <label for="germanshepherd">გერმანული ნაგაზი</label><br><br>
+
+        <button type="submit">დარეგისტრირება</button>\
+                <select id="movie" name="movie" required>
+            <option value="">აირჩიეთ ფილმი</option>
+            <option value="inception">Southpaw</option>
+            <option value="titanic">Titanic</option>
+            <option value="avatar">Rocky</option>
+            <option value="matrix">Creed</option>
+        </select><br><br>
+    </form>
+
+</body>
+</html>
